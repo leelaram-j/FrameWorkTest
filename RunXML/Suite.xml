@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite PUBLIC "SYSTEM" "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="core.framework.TestListener"/>
+    </listeners>
+    <test name="MultipleBrowserTest">
+        <classes>
+            <class name="ToolsQA.FrameWorkTest.MultiThreadBrowserTest">
+                <methods>
+                    <include name="Test001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

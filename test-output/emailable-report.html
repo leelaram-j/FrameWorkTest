@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">testsuite</th></tr><tr><td><a href="#t0">MultipleBrowserTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">52,913</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">testsuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MultipleBrowserTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">ToolsQA.FrameWorkTest.MultiThreadBrowserTest</td><td><a href="#m0">Test001</a></td><td rowspan="2">1474397808077</td><td rowspan="2">35589</td></tr><tr class="failedeven"><td><a href="#m1">Test001</a></td></tr><tr><th colspan="4">MultipleBrowserTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ToolsQA.FrameWorkTest.MultiThreadBrowserTest</td><td><a href="#m2">Test001</a></td><td rowspan="1">1474397798900</td><td rowspan="1">14646</td></tr></tbody></table><h2>MultipleBrowserTest</h2><h3 id="m0">ToolsQA.FrameWorkTest.MultiThreadBrowserTest#Test001</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>{EMPLOYEEPAGEBREADCRUM=Employees,Search Employee, SEARCHSSN=999009999, PASSWORD=test1234, DEFAULTPLANNAME=341999-01, SUMMARYPAGEBREADCRUM=Plan,Overview,Summary, USERNAME=xxxxxx, URL=http://toolsqa.com}</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.88 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;c7b525d&apos;, time: &apos;2016-09-01 14:57:44 -0700&apos;
+System info: host: &apos;Ninja&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: be4df228-e99f-4a0d-a834-1553098b18b9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:631)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:654)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:906)
+	at ToolsQA.FrameWorkTest.MultiThreadBrowserTest.Test001(MultiThreadBrowserTest.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">ToolsQA.FrameWorkTest.MultiThreadBrowserTest#Test001</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>{EMPLOYEEPAGEBREADCRUM=Employees,Search Employee, SEARCHSSN=999009999, PASSWORD=test1234, DEFAULTPLANNAME=341999-01, SUMMARYPAGEBREADCRUM=Plan,Overview,Summary, USERNAME=xxxxxx, URL=http://yahoo.com}</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.01 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;c7b525d&apos;, time: &apos;2016-09-01 14:57:44 -0700&apos;
+System info: host: &apos;Ninja&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 664ce4b1-152b-4716-a2d7-cd39a7e70611
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:631)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:654)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:906)
+	at ToolsQA.FrameWorkTest.MultiThreadBrowserTest.Test001(MultiThreadBrowserTest.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">ToolsQA.FrameWorkTest.MultiThreadBrowserTest#Test001</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>{EMPLOYEEPAGEBREADCRUM=Employees,Search Employee, SEARCHSSN=999009999, PASSWORD=test1234, DEFAULTPLANNAME=341999-01, SUMMARYPAGEBREADCRUM=Plan,Overview,Summary, USERNAME=xxxxxx, URL=http://google.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

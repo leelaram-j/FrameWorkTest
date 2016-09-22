@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testsuite]">
+  <listeners>
+    <listener class-name="core.framework.TestListener"/>
+  </listeners>
+  <test name="MultipleBrowserTest(failed)" preserve-order="true">
+    <classes>
+      <class name="ToolsQA.FrameWorkTest.MultiThreadBrowserTest">
+        <methods>
+          <include name="InitTest"/>
+          <include name="SetUp"/>
+          <include name="Test001" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- ToolsQA.FrameWorkTest.MultiThreadBrowserTest -->
+    </classes>
+  </test> <!-- MultipleBrowserTest(failed) -->
+</suite> <!-- Failed suite [testsuite] -->
